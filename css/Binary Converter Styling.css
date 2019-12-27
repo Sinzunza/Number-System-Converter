@@ -1,0 +1,28 @@
+body {
+	color: chocolate;
+	text-align: center;
+	font-weight: bold;
+	background-image: url("../images/Binary bg.jpg");
+}
+
+table, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: lightgray;
+}
+
+td {
+	padding: 6px;
+}
+
+button {
+	color: black;
+	background-color: lightsteelblue;
+	font-weight: bold;
+}
+
+#bottomCopyright {
+	margin-top: 30%;
+}
