@@ -12,14 +12,14 @@ body {
 }
 
 table, td {
-	border: 2px solid #454140;
+	border: 2px solid #525252;
 	border-collapse: collapse;
 	font-size: large;
 	width: 50%;
 	margin-top: inherit;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: #EAEDED;
+	background-color: #ECECEC;
 }
 
 td {
@@ -39,10 +39,9 @@ button {
 #logo {
 	position: absolute;
 	margin-left: 93%;
-	margin-top: 39%;
 }
 
 #bottomCopyright {
-	margin-top: 15%;
+	margin-top: 10%;
 	text-align: center;
 }
