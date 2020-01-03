@@ -1,6 +1,5 @@
 var theNumber;
 
-
 function decimalConverter() {
 
 	document.getElementById("binaryInserted").value = " ";
@@ -14,7 +13,6 @@ function decimalConverter() {
 	}
 
 }
-
 
 function binaryConverter() {
 
