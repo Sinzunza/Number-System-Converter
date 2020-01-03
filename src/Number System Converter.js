@@ -66,13 +66,13 @@ function numberConverter(){
 	}
 
 	document.getElementById("binaryOutput").innerHTML = binaryString.substring(0,4) + " " + binaryString.substring(4, 8) + " " + binaryString.substring(8, 12) + " " + binaryString.substring(12, 16) + " " +
-														binaryString.substring(16,20) + " " + binaryString.substring(20, 24) + " " + binaryString.substring(24, 28) + " " + binaryString.substring(28, 32);
+							    binaryString.substring(16,20) + " " + binaryString.substring(20, 24) + " " + binaryString.substring(24, 28) + " " + binaryString.substring(28, 32);
 
 	document.getElementById("one'sOutput").innerHTML = onesString.substring(0,4) + " " + onesString.substring(4,8) + " " + onesString.substring(8,12) + " " + onesString.substring(12,16) + " " +
-													   onesString.substring(16,20) + " " + onesString.substring(20,24) + " " + onesString.substring(24,28) + " " + onesString.substring(28,32);
+						           onesString.substring(16,20) + " " + onesString.substring(20,24) + " " + onesString.substring(24,28) + " " + onesString.substring(28,32);
 
         document.getElementById("two'sOutput").innerHTML = twosString.substring(0,4) + " " + twosString.substring(4,8) + " " + twosString.substring(8,12) + " " + twosString.substring(12,16) + " " +
-							   						   twosString.substring(16,20) + " " + twosString.substring(20,24) + " " + twosString.substring(24,28) + " " + twosString.substring(28,32);
+							   twosString.substring(16,20) + " " + twosString.substring(20,24) + " " + twosString.substring(24,28) + " " + twosString.substring(28,32);
 
 	//hexadecimal
 	document.getElementById("hexadecimalOutput").innerHTML = theNumber.toString(16).substring(0,8);
