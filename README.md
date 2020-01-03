@@ -1,6 +1,6 @@
 # Number System Converter
 
-A web page decimal to binary converter using javascript.
+Developed and designed a web-based program in JavaScript, Html and CSS that can convert numbers between the decimal, binary, and hexadecimal systems.
 
 Sergio Inzunza
 
