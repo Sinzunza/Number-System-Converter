@@ -49,8 +49,9 @@ function numberConverter(){
 
 	//decimal
         document.getElementById("decimalOutput").innerHTML = theNumber;
+	
 	//binary
-	var binaryString = theNumber.toString(2); //fill the beginning with zero's
+	var binaryString = theNumber.toString(2);
 	while(binaryString.length < 32) {
 		binaryString =  "0" + binaryString;
 	}
