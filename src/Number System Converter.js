@@ -50,7 +50,7 @@ function hexadecimalConverter() {
 function numberConverter(){
 
 	//decimal
-   document.getElementById("decimalOutput").innerHTML = theNumber;
+        document.getElementById("decimalOutput").innerHTML = theNumber;
 	//binary
 	var binaryString = theNumber.toString(2); //fill the beginning with zero's
 	while(binaryString.length < 32) {
@@ -71,7 +71,7 @@ function numberConverter(){
 	document.getElementById("one'sOutput").innerHTML = onesString.substring(0,4) + " " + onesString.substring(4,8) + " " + onesString.substring(8,12) + " " + onesString.substring(12,16) + " " +
 													   onesString.substring(16,20) + " " + onesString.substring(20,24) + " " + onesString.substring(24,28) + " " + onesString.substring(28,32);
 
-    document.getElementById("two'sOutput").innerHTML = twosString.substring(0,4) + " " + twosString.substring(4,8) + " " + twosString.substring(8,12) + " " + twosString.substring(12,16) + " " +
+        document.getElementById("two'sOutput").innerHTML = twosString.substring(0,4) + " " + twosString.substring(4,8) + " " + twosString.substring(8,12) + " " + twosString.substring(12,16) + " " +
 							   						   twosString.substring(16,20) + " " + twosString.substring(20,24) + " " + twosString.substring(24,28) + " " + twosString.substring(28,32);
 
 	//hexadecimal
