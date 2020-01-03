@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Sergio's - Number System Conveter</title>
+
+        <link href="css/Number System Converter Styling.css" rel="stylesheet" type="text/css"/>
+
+        <script src="src/Number System Converter.js" type="text/javascript" async> </script>
+
+</head>
+
+<body>
+
+    <div id="logo"> <img src="images/InzuProd.png" alt="InzuFate" width="100%" height="70%"/> </div>
+
+    <h1>Number System Converter</h1>
+
+    <table>
+
+    	<tr>
+    		<td> Enter an unsigned decimal between 0 and 4,294,967,295: <input type="text" id="decimalInserted" /> <button onclick="decimalConverter()">Convert</button></td>
+    	</tr>
+    	<tr>
+    		<td id="displayResults">Decimal: <b id="decimalOutput"></b></td>
+    	</tr>
+
+    </table>
+
+    <table>
+
+    	<tr>
+    		<td>Enter an unsigned binary between 0 and 4,294,967,295: <input type="text" id="binaryInserted" /> <button onclick="binaryConverter()">Convert</button></td>
+    	</tr>
+    	<tr>
+    		<td id="displayResults">Binary: <b id="binaryOutput"></b></td>
+    	</tr>
+    	<tr>
+    		<td id="displayResults">One's Complement: <b id="one'sOutput"></b></td>
+    	</tr>
+    	<tr>
+    		<td id="displayResults">Two's Complement: <b id="two'sOutput"></b></td>
+    	</tr>
+
+    </table>
+
+    <table>
+
+    	<tr>
+    		<td>Enter an unsigned hexadecimal between 0 and 4,294,967,295: <input type="text" id="hexadecimalInserted" /> <button onclick="hexadecimalConverter()">Convert</button></td>
+    	</tr>
+    	<tr>
+    		<td id="displayResults">Hexadecimal: <b id="hexadecimalOutput"></b></td>
+    	</tr>
+
+    </table>
+
+    <p id="bottomCopyright">
+            Copyright (c) 2017 Copyright Holder All Rights Reserved.
+            <br>
+            Website by Sergio Inzunza
+    </p>
+
+</body>
+
+</html>

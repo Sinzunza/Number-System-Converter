@@ -1,0 +1,48 @@
+h1 {
+	font-size: xxx-large;
+	font-family: Arial Black;
+	text-align: center;
+}
+
+body {
+	color: #525252;
+	text-align: right;
+	font-weight: bold;
+	background-image: url("../images/Mountain.jpg");
+}
+
+table, td {
+	border: 2px solid #454140;
+	border-collapse: collapse;
+	font-size: large;
+	width: 50%;
+	margin-top: inherit;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #EAEDED;
+}
+
+td {
+	padding: 6px;
+}
+
+button {
+	background-color: lightsteelblue;
+	font-weight: bold;
+}
+
+#displayResults {
+	text-align: right;
+	padding-right: 35%;
+}
+
+#logo {
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 39%;
+}
+
+#bottomCopyright {
+	margin-top: 15%;
+	text-align: center;
+}
